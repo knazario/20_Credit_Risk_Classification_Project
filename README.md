@@ -15,12 +15,12 @@ For this project, I used a Logistic Regression algorithim, which is a classifica
 
 ## Results: Logistic Regression Machine Learning Model: 
 
-    * Overall Accuracy of model: 99% accuracy on test subset of data
-    * Precision for identiifying healthy loans (`0`): Classification report rounded to 100%. However, because there were some False Negatives seen in the confusion matrix (Predicting the loan to be healthy/ `0` when it was actually high-risk/ `1`),it is more accurate to state that the precision was greater than 99.5%. 
-    * Recall for healthy loans: 99% (102 False Positives (predicted `1` when it actual was `0`). 
-    * Precision for high-risk loans: lower than healthy loan precision at 85%
-    * Recall for high-risk loans: also lower than healthy loan recall at 91%
-    * NOTE: Precision and recall being better/higher for healthy loans makes sense since there are significantly more healthy loans in the dataset. 
+* Overall Accuracy of model: 99% accuracy on test subset of data
+* Precision for identiifying healthy loans (`0`): Classification report rounded to 100%. However, because there were some False Negatives seen in the confusion matrix (Predicting the loan to be healthy/ `0` when it was actually high-risk/ `1`),it is more accurate to state that the precision was greater than 99.5%. 
+* Recall for healthy loans: 99% (102 False Positives (predicted `1` when it actual was `0`). 
+* Precision for high-risk loans: lower than healthy loan precision at 85%
+* Recall for high-risk loans: also lower than healthy loan recall at 91%
+* NOTE: Precision and recall being better/higher for healthy loans makes sense since there are significantly more healthy loans in the dataset. 
     
 ## Summary
 
